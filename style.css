@@ -1,0 +1,30 @@
+body{
+    background-image: url("background.jpeg");
+    opacity: 0.6;
+}
+h1{
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#620cb3,#45de9c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+#image{
+    display: block;
+    margin-top: -30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.user{
+    text-align: center;
+}
+#userName{
+    font-size: 30px;
+}
+#user{
+    padding: 15px;
+    margin-top: 20px;
+}
