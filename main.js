@@ -34,7 +34,7 @@ function filter(collection,predicate){
               }
           }
       });
-          return acc;
+    return acc;
   }
 var rightAnswersMovies = {
     question 1 : ,
