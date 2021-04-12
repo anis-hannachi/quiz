@@ -110,11 +110,16 @@ h1{
 .cat{
     margin: auto;
     text-align: center;
+    background-color: #dbdbdb99;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 fieldset{
     background-color: #dbdbdb99;
     margin-left: 20%;
     margin-right: 20%;
+    border-radius: 10px;
 }
 .exit{
     background-color: #cacfc8;
