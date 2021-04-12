@@ -22,10 +22,12 @@
         </div>
         <div class="cat" id="cat" style="display: none;">
         <legend class="titel">Choose a category</legend>
-        <label class="check"><input type="radio" value="m" onclick="showQuestion()">Movies<br></label>
-        <label class="check"><input type="radio" value="p" onclick="test(3)">Pokemon<br></label>
-        <label class="check"><input type="radio" value="s" onclick="test(4)">Singer name<br></label>
+        <label class="checkCat"><input type="radio" value="m" onclick="showQuestion()">Movies<br></label>
+        <label class="checkCat"><input type="radio" value="p" onclick="test(3)">Pokemon<br></label>
+        <label class="checkCat"><input type="radio" value="s" onclick="test(4)">Singer name<br></label>
         </div>
+
+        <div class="allQuestions">
         <div class="quiz" id="question1" style="display: none;">
             <button class="exit" onclick="exit()">Exit</button>
             <img class="movie" src="movie1.jpeg"/>
@@ -90,6 +92,7 @@
                 <button id="checked" onclick="validate()">Check</button>
                 <button class="next" onclick="score()">Confirm</button>
             </fieldset>
+        </div>
         </div>
         <div id="score" style="display: none;">
         </div>
