@@ -23,79 +23,220 @@
         <div class="cat" id="cat" style="display: none;">
         <legend class="titel">Choose a category</legend>
         <label class="checkCat"><input type="radio" value="m" onclick="showQuestion()">Movies<br></label>
-        <label class="checkCat"><input type="radio" value="p" onclick="test(3)">Pokemon<br></label>
-        <label class="checkCat"><input type="radio" value="s" onclick="test(4)">Singer name<br></label>
+        <label class="checkCat"><input type="radio" value="p" onclick="showQuestion1()">Pokemon<br></label>
+        <label class="checkCat"><input type="radio" value="s" onclick="showQuestion2(4)">Singer name<br></label>
         </div>
 
         <div class="allQuestions">
         <div class="quiz" id="question1" style="display: none;">
             <button class="exit" onclick="exit()">Exit</button>
-            <img class="movie" src="movie1.jpeg"/>
+            <img class="movie" src="/Image/movie1.jpeg"/>
             <fieldset class="question">
                 <legend class="titel">What is the name of this movie ? </legend>
-                <label class="check"><input type="radio" id="a" value="wrong"><span class="red">RED</span><br></label>
-                <label class="check"><input type="radio" id="b" value="wrong"><span class="red">6 Thiefs</span><br></label>
-                <label class="check"><input type="radio" id="c" value="right"><span class="green">6 Underground</span><br></label>
-                <label class="check" style="margin-bottom: 10px;"><input type="radio" id="d" value="wrong"><span class="red">Fast & Furious</span><br></label>
+                <label class="check"><input type="radio"  value="wrong"><span class="red">RED</span><br></label>
+                <label class="check"><input type="radio"  value="wrong"><span class="red">6 Thiefs</span><br></label>
+                <label class="check"><input type="radio"  value="right"><span class="green">6 Underground</span><br></label>
+                <label class="check" style="margin-bottom: 10px;"><input type="radio"  value="wrong"><span class="red">Fast & Furious</span><br></label>
                 <button id="checked" onclick="validate()">Check</button>
                 <button class="next" onclick="nextQuestion()">Next</button>
             </fieldset>
         </div>
         <div class="quiz" id="question2" style="display: none;">
             <button class="exit" onclick="exit()">Exit</button>
-            <img class="movie" src="movie2.jpeg"/>
+            <img class="movie" src="/Image/movie2.jpeg"/>
             <fieldset class="question">
                 <legend class="titel">What is the name of this movie ? </legend>
-                <label class="check"><input type="radio" id="e" value="right"><span class="green">Tyler Rake</span><br></label>
-                <label class="check"><input type="radio" id="f" value="wrong"><span class="red">Extraction</span><br></label>
-                <label class="check"><input type="radio" id="g" value="wrong"><span class="red">Rescue</span><br></label>
-                <label class="check" style="margin-bottom: 10px;"><input type="radio" id="h" value="wrong"><span class="red">Happy End</span><br></label>
+                <label class="check"><input type="radio"  value="right"><span class="green">Tyler Rake</span><br></label>
+                <label class="check"><input type="radio"  value="wrong"><span class="red">Extraction</span><br></label>
+                <label class="check"><input type="radio"  value="wrong"><span class="red">Rescue</span><br></label>
+                <label class="check" style="margin-bottom: 10px;"><input type="radio"  value="wrong"><span class="red">Happy End</span><br></label>
                 <button id="checked" onclick="validate()">Check</button>
                 <button class="next" onclick="nextQuestion()">Next</button>
             </fieldset>
         </div>
         <div class="quiz" id="question3" style="display: none;">
             <button class="exit" onclick="exit()">Exit</button>
-            <img class="movie" src="movie3.jpeg"/>
+            <img class="movie" src="/Image/movie3.jpeg"/>
             <fieldset class="question">
                 <legend class="titel">What is the name of this movie ? </legend>
-                <label class="check"><input type="radio" id="i" value="wrong"><span class="red">Harry Poter</span><br></label>
-                <label class="check"><input type="radio" id="j" value="right"><span class="green">Harry Potter</span><br></label>
-                <label class="check"><input type="radio" id="k" value="wrong"><span class="red">Hary Potter</span><br></label>
-                <label class="check" style="margin-bottom: 10px;"><input type="radio" id="l" value="wrong"><span class="red">Hary Poter</span><br></label>
+                <label class="check"><input type="radio"  value="wrong"><span class="red">Harry Poter</span><br></label>
+                <label class="check"><input type="radio"  value="right"><span class="green">Harry Potter</span><br></label>
+                <label class="check"><input type="radio"  value="wrong"><span class="red">Hary Potter</span><br></label>
+                <label class="check" style="margin-bottom: 10px;"><input type="radio"  value="wrong"><span class="red">Hary Poter</span><br></label>
                 <button id="checked" onclick="validate()">Check</button>
                 <button class="next" onclick="nextQuestion()">Next</button>
             </fieldset>
         </div>
         <div class="quiz" id="question4" style="display: none;">
             <button class="exit" onclick="exit()">Exit</button>
-            <img class="movie" src="movie4.jpeg"/>
+            <img class="movie" src="/Image/movie4.jpeg"/>
             <fieldset class="question">
                 <legend class="titel">What is the name of this movie ? </legend>
-                <label class="check"><input type="radio" id="m" value="wrong"><span class="red">Houston</span><br></label>
-                <label class="check"><input type="radio" id="n" value="wrong"><span class="red">Skyline</span><br></label>
-                <label class="check"><input type="radio" id="o" value="wrong"><span class="red">Space Ship</span><br></label>
-                <label class="check" style="margin-bottom: 10px;"><input type="radio" id="p" value="right"><span class="green">Armageddon</span><br></label>
+                <label class="check"><input type="radio"  value="wrong"><span class="red">Houston</span><br></label>
+                <label class="check"><input type="radio"  value="wrong"><span class="red">Skyline</span><br></label>
+                <label class="check"><input type="radio"  value="wrong"><span class="red">Space Ship</span><br></label>
+                <label class="check" style="margin-bottom: 10px;"><input type="radio"  value="right"><span class="green">Armageddon</span><br></label>
                 <button id="checked" onclick="validate()">Check</button>
                 <button class="next" onclick="nextQuestion()">Next</button>
             </fieldset>
         </div>
         <div class="quiz" id="question5" style="display: none;">
             <button class="exit" onclick="exit()">Exit</button>
-            <img class="movie" src="movie5.jpeg"/>
+            <img class="movie" src="/Image/movie5.jpeg"/>
             <fieldset class="question">
                 <legend class="titel">What is the name of this movie ? </legend>
-                <label class="check"><input type="radio" id="q" value="wrong"><span class="red">The One</span><br></label>
-                <label class="check"><input type="radio" id="r" value="wrong"><span class="red">Jet Li</span><br></label>
-                <label class="check"><input type="radio" id="s" value="right"><span class="green">Romeo must die</span><br></label>
-                <label class="check" style="margin-bottom: 10px;"><input type="radio" id="t" value="wrong"><span class="red">Fearless</span><br></label>
+                <label class="check"><input type="radio"  value="wrong"><span class="red">The One</span><br></label>
+                <label class="check"><input type="radio"  value="wrong"><span class="red">Jet Li</span><br></label>
+                <label class="check"><input type="radio"  value="right"><span class="green">Romeo must die</span><br></label>
+                <label class="check" style="margin-bottom: 10px;"><input type="radio"  value="wrong"><span class="red">Fearless</span><br></label>
                 <button id="checked" onclick="validate()">Check</button>
                 <button class="next" onclick="score()">Confirm</button>
             </fieldset>
         </div>
         </div>
-        <div id="score" style="display: none;">
-        </div>
+        <div class="allPokemon">
+            <div class="quiz" id="question11" style="display: none;">
+                <button class="exit" onclick="exit()">Exit</button>
+                <img class="pokemon" src="/Image/psyduck.jpeg"/>
+                <fieldset class="question">
+                    <legend class="titel">Who's this Singer ? </legend>
+                    <label class="check"><input type="radio"  value="wrong"><span class="red">Psykwakwak</span><br></label>
+                    <label class="check"><input type="radio"  value="wrong"><span class="red">Psycoduck</span><br></label>
+                    <label class="check"><input type="radio"  value="right"><span class="green">Psyduck</span><br></label>
+                    <label class="check" style="margin-bottom: 10px;"><input type="radio"  value="wrong"><span class="red">Psy-wak-wak</span><br></label>
+                    <button id="checked" onclick="validate()">Check</button>
+                    <button class="next" onclick="nextQuestion1()">Next</button>
+                </fieldset>
+            </div>
+            <div class="quiz" id="question21" style="display: none;">
+                <button class="exit" onclick="exit()">Exit</button>
+                <img class="pokemon" src="/Image/pika.jpeg"/>
+                <fieldset class="question">
+                    <legend class="titel">Who's this Singer ? </legend>
+                    <label class="check"><input type="radio"  value="right"><span class="green">Pikachu</span><br></label>
+                    <label class="check"><input type="radio"  value="wrong"><span class="red">Pikapi</span><br></label>
+                    <label class="check"><input type="radio"  value="wrong"><span class="red">Pichu</span><br></label>
+                    <label class="check" style="margin-bottom: 10px;"><input type="radio"  value="wrong"><span class="red">Pika</span><br></label>
+                    <button id="checked" onclick="validate()">Check</button>
+                    <button class="next" onclick="nextQuestion1()">Next</button>
+                </fieldset>
+            </div>
+            <div class="quiz" id="question31" style="display: none;">
+                <button class="exit" onclick="exit()">Exit</button>
+                <img class="pokemon" src="/Image/rondoudou.jpeg"/>
+                <fieldset class="question">
+                    <legend class="titel">Who's that Pokemon ? </legend>
+                    <label class="check"><input type="radio"  value="wrong"><span class="red">Toudoudou</span><br></label>
+                    <label class="check"><input type="radio"  value="right"><span class="green">Jigglypuff</span><br></label>
+                    <label class="check"><input type="radio"  value="wrong"><span class="red">Ronflex</span><br></label>
+                    <label class="check" style="margin-bottom: 10px;"><input type="radio"  value="wrong"><span class="red">Rondoudou</span><br></label>
+                    <button id="checked" onclick="validate()">Check</button>
+                    <button class="next" onclick="nextQuestion1()">Next</button>
+                </fieldset>
+            </div>
+            <div class="quiz" id="question41" style="display: none;">
+                <button class="exit" onclick="exit()">Exit</button>
+                <img class="pokemon" src="/Image/dragonite.jpeg"/>
+                <fieldset class="question">
+                    <legend class="titel">Who's that Pokemon ? </legend>
+                    <label class="check"><input type="radio"  value="wrong"><span class="red">Draco</span><br></label>
+                    <label class="check"><input type="radio"  value="wrong"><span class="red">Dragonile</span><br></label>
+                    <label class="check"><input type="radio"  value="wrong"><span class="red">Drake</span><br></label>
+                    <label class="check" style="margin-bottom: 10px;"><input type="radio"  value="right"><span class="green">Dragonite</span><br></label>
+                    <button id="checked" onclick="validate()">Check</button>
+                    <button class="next" onclick="nextQuestion1()">Next</button>
+                </fieldset>
+            </div>
+            <div class="quiz" id="question51" style="display: none;">
+                <button class="exit" onclick="exit()">Exit</button>
+                <img class="pokemon" src="/Image/absol.png"/>
+                <fieldset class="question">
+                    <legend class="titel">Who's that Pokemon ? </legend>
+                    <label class="check"><input type="radio"  value="wrong"><span class="red">Moona</span><br></label>
+                    <label class="check"><input type="radio"  value="wrong"><span class="red">Moonaria</span><br></label>
+                    <label class="check"><input type="radio"  value="right"><span class="green">Absol</span><br></label>
+                    <label class="check" style="margin-bottom: 10px;"><input type="radio"  value="wrong"><span class="red">Dreamana</span><br></label>
+                    <button id="checked" onclick="validate()">Check</button>
+                    <button class="next" onclick="score1()">Confirm</button>
+                </fieldset>
+            </div>
+            </div>
+            <div class="allSinger">
+                <div class="quiz" id="question12" style="display: none;">
+                    <button class="exit" onclick="exit()">Exit</button>
+                    <img class="pokemon" src="/Image/adam levine.jpeg"/>
+                    <fieldset class="question">
+                        <legend class="titel">Who's this Singer ? </legend>
+                        <label class="check"><input type="radio"  value="wrong"><span class="red">Maroon 5</span><br></label>
+                        <label class="check"><input type="radio"  value="wrong"><span class="red">Adam Sandler</span><br></label>
+                        <label class="check"><input type="radio"  value="right"><span class="green">Adam Levine</span><br></label>
+                        <label class="check" style="margin-bottom: 10px;"><input type="radio"  value="wrong"><span class="red">Mike</span><br></label>
+                        <button id="checked" onclick="validate()">Check</button>
+                        <button class="next" onclick="nextQuestion2()">Next</button>
+                    </fieldset>
+                </div>
+                <div class="quiz" id="question22" style="display: none;">
+                    <button class="exit" onclick="exit()">Exit</button>
+                    <img class="pokemon" src="/Image/Justin_Timberlake_by_Gage_Skidmore_2.jpeg"/>
+                    <fieldset class="question">
+                        <legend class="titel">Who's this Singer ? </legend>
+                        <label class="check"><input type="radio"  value="right"><span class="green">Justin Timberlake</span><br></label>
+                        <label class="check"><input type="radio"  value="wrong"><span class="red">Justin Bieber</span><br></label>
+                        <label class="check"><input type="radio"  value="wrong"><span class="red">Jay Z</span><br></label>
+                        <label class="check" style="margin-bottom: 10px;"><input type="radio"  value="wrong"><span class="red">Dr.Dree</span><br></label>
+                        <button id="checked" onclick="validate()">Check</button>
+                        <button class="next" onclick="nextQuestion2()">Next</button>
+                    </fieldset>
+                </div>
+                <div class="quiz" id="question32" style="display: none;">
+                    <button class="exit" onclick="exit()">Exit</button>
+                    <img class="pokemon" src="/Image/50-cent-biggest-beefs-getty-jordan-darville.jpeg"/>
+                    <fieldset class="question">
+                        <legend class="titel">Who's this Singer ? </legend>
+                        <label class="check"><input type="radio"  value="wrong"><span class="red">The Game</span><br></label>
+                        <label class="check"><input type="radio"  value="right"><span class="green">50 Cent</span><br></label>
+                        <label class="check"><input type="radio"  value="wrong"><span class="red">Eminem</span><br></label>
+                        <label class="check" style="margin-bottom: 10px;"><input type="radio"  value="wrong"><span class="red">50 Cents</span><br></label>
+                        <button id="checked" onclick="validate()">Check</button>
+                        <button class="next" onclick="nextQuestion2()">Next</button>
+                    </fieldset>
+                </div>
+                <div class="quiz" id="question42" style="display: none;">
+                    <button class="exit" onclick="exit()">Exit</button>
+                    <img class="pokemon" src="/Image/1216-GQ-FEPR01-01-prince.jpeg"/>
+                    <fieldset class="question">
+                        <legend class="titel">Who's this Singer ? </legend>
+                        <label class="check"><input type="radio"  value="wrong"><span class="red">Prince</span><br></label>
+                        <label class="check"><input type="radio"  value="wrong"><span class="red">Prince Charles</span><br></label>
+                        <label class="check"><input type="radio"  value="wrong"><span class="red">Jimi Hendrix</span><br></label>
+                        <label class="check" style="margin-bottom: 10px;"><input type="radio"  value="right"><span class="green">Prince Rogers Nelson</span><br></label>
+                        <button id="checked" onclick="validate()">Check</button>
+                        <button class="next" onclick="nextQuestion2()">Next</button>
+                    </fieldset>
+                </div>
+                <div class="quiz" id="question52" style="display: none;">
+                    <button class="exit" onclick="exit()">Exit</button>
+                    <img class="pokemon" src="/Image/whitney houston.jpeg"/>
+                    <fieldset class="question">
+                        <legend class="titel">Who's this Singer ? </legend>
+                        <label class="check"><input type="radio"  value="wrong"><span class="red">Madona</span><br></label>
+                        <label class="check"><input type="radio"  value="wrong"><span class="red">Britney Spears</span><br></label>
+                        <label class="check"><input type="radio"  value="right"><span class="green">Whitney Houston</span><br></label>
+                        <label class="check" style="margin-bottom: 10px;"><input type="radio"  value="wrong"><span class="red">Beyonce</span><br></label>
+                        <button id="checked" onclick="validate()">Check</button>
+                        <button class="next" onclick="score2()">Confirm</button>
+                    </fieldset>
+                </div>
+                </div>
+            <div id="score" style="display: none;">
+                <button class="reload" onclick="exit()">Play Again</button>
+            </div>
+            <div id="score1" style="display: none;">
+                <button class="reload" onclick="exit()">Play Again</button>
+            </div>
+            <div id="score2" style="display: none;">
+                <button class="reload" onclick="exit()">Play Again</button>
+            </div>
 
         <script type="text/javascript" src="main.js"></script>
     </body>

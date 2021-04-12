@@ -69,6 +69,14 @@ h1{
     margin-right: auto;
     margin-bottom: auto;
 }
+.pokemon{
+    width: 50%;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
 .titel{
     font-size: 32px;
     font-weight: 600;
@@ -126,4 +134,26 @@ fieldset{
     background-color: #381b39bf;
     color: white;
     border-color: #cacfc8;
+}
+.reload{
+    background-color: #cacfc8;
+  	color: black;
+  	border: 2px solid #636363;
+  	border-radius: 10px;
+  	text-align: center;
+  	font-size: 20px;
+	padding: 20px;
+	transition-duration: 0.4s;
+    font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+    text-align: center;
+}
+.reload:hover{
+    background-color: #381b39bf;
+    color: white;
+    border-color: #cacfc8;
+}
+#score,#score1,#score2{
+    margin-top: 10%;
+    text-align: center;
 }
