@@ -107,7 +107,7 @@ function nextQuestion1(){
     } 
     }  
      if(!test){
-         alert("Please check before clicking Next !!!")
+         alert("Please select an answer and check before clicking Next !!!")
         }
         test = false
 }
